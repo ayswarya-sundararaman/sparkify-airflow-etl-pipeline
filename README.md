@@ -10,7 +10,7 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 ## Implemented DAG:
 
 The ETL pipeline has the following structure:
-![Example DAG](Images/example-dag.png)
+![Example DAG](images/example-dag.png)
 
 The **begin_execution** tasks simply creates the DWH tables if they do not exist.
 
@@ -87,11 +87,11 @@ Here, we'll use Airflow's UI to configure your AWS credentials and connection to
 
 Click on the **Admin** tab and select **Connections**.
 
-![Admin-Connections](Images/admin-connections.png)
+![Admin-Connections](images/admin-connections.png)
 
 Under **Connections**, select **Create**.
 
-![Create Connection](Images/create-connection.png)
+![Create Connection](images/create-connection.png)
 
 On the create connection page, enter the following values:
 
@@ -105,7 +105,7 @@ On the create connection page, enter the following values:
 
 Once you've entered these values, select **Save and Add Another**.
 
-![connection AWS Credentials](Images/connection-aws-credentials.png)
+![connection AWS Credentials](images/connection-aws-credentials.png)
 
 On the next create connection page, enter the following values:
 
@@ -125,9 +125,9 @@ On the next create connection page, enter the following values:
 
 Once you've entered these values, select **Save**.
 
-![Cluster Details](Images/cluster-details.png)
+![Cluster Details](images/cluster-details.png)
 
-![Connection Redshift](Images/connection-redshift.png)
+![Connection Redshift](images/connection-redshift.png)
 
 
 
@@ -138,7 +138,7 @@ Once the files have been uploaded to the udacity workspace, from Bash, run the f
 
 Once the message `Airflow web server is ready` appears, click on the `Access Airflow` button to open the UI and click on the **Off** button to start the pipeline
 
-![](Images/Start-DAG.png)
+![](images/Start-DAG.png)
 
 
 
