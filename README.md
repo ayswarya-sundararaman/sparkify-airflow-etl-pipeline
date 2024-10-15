@@ -10,7 +10,7 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 ## Implemented DAG:
 
 The ETL pipeline has the following structure:
-![](Images/example-dag.png)
+![Example DAG](Images/example-dag.png)
 
 The **begin_execution** tasks simply creates the DWH tables if they do not exist.
 
@@ -87,11 +87,11 @@ Here, we'll use Airflow's UI to configure your AWS credentials and connection to
 
 Click on the **Admin** tab and select **Connections**.
 
-![](Images/admin-connections.png)
+![Admin-Connections](Images/admin-connections.png)
 
 Under **Connections**, select **Create**.
 
-![](Images/create-connection.png)
+![Create Connection](Images/create-connection.png)
 
 On the create connection page, enter the following values:
 
@@ -105,7 +105,7 @@ On the create connection page, enter the following values:
 
 Once you've entered these values, select **Save and Add Another**.
 
-![](Images/connection-aws-credentials.png)
+![connection AWS Credentials](Images/connection-aws-credentials.png)
 
 On the next create connection page, enter the following values:
 
@@ -125,9 +125,9 @@ On the next create connection page, enter the following values:
 
 Once you've entered these values, select **Save**.
 
-![](Images/cluster-details.png)
+![Cluster Details](Images/cluster-details.png)
 
-![](Images/connection-redshift.png)
+![Connection Redshift](Images/connection-redshift.png)
 
 
 
